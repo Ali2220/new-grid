@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.boss{
+    display: grid;
+    justify-content: center;
+}
+
+.container1{
+    background-color: black;
+    height: 105px;
+    width: 158px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px ;
+    border: 2px solid black;
+    grid-gap: 4px;
+    /* top: 10px;
+    position: relative; */
+    /* left: 100px;
+    top: 10px; */
+}
+
+.item1{
+    background-color: red;
+}
+
+.item2{
+    background-color: orange;
+}
+
+.item3{
+    background-color: yellow;
+}
+
+.item4{
+    background-color: green;
+}
+
+.item5{
+    background-color: blue;
+}
+
+.item6{
+    background-color: aqua;
+}
+
+/* .container2 */
+
+.container2{
+    position: relative;
+    top: 10px;
+    background-color: black;
+    height: 105px;
+    width: 158px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px ;
+    grid-gap: 4px;
+    border: 2px solid black;
+}
+
+.object1{
+    background-color: red;
+    grid-column: 1/ span 2 ;
+}
+
+.object2{
+    background-color: yellow;
+    height: 105px;
+    /* grid-row: 4/ span 2 ; */
+    /* grid-row: /span3; */
+}
+
+.object3{
+    background-color: green;
+}
+
+.object4{
+    background-color: aqua;
+}
+
+
+/* container 3 */
+
+.container3{
+    display: grid;
+    background-color: black;
+    border: 2px solid black;
+    /* color: blac; */
+    position: relative;
+    top: 10px;
+    height: 158px;
+    width: 158px;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px 50px ;
+    grid-gap: 4px;
+}
+
+.field1{
+    background-color: orange;
+    width: 158px;
+
+}
+
+.field3{
+    background-color: green;
+}
+
+.field4{
+    background-color: red;
+    /* grid-column: 2/ span 3; */
+    width: 104px;
+}
+
+.field5{
+    background-color: aquamarine;
+    width: 158px;
+}
+
+/* container4 */
+.container4{
+
+    display: grid;
+    background-color: black;
+    border: 2px solid black;
+    position: relative;
+    top: 10px;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-columns: 50px 50px;
+    grid-gap: 30px;
+    height: 129px;
+    width: 156px;
+}
+
+.kid1{
+    background-color: orange;
+    width: 77px;
+}
+
+.kid2{
+    background-color: red;
+    width: 77px;
+}
+
+.kid3{
+    background-color: green;   
+    position: relative;  
+    top: -26px;
+}
+
+.kid4{
+    background-color: aqua;
+    position: relative;
+    top: -26px;
+    left: -26px;
+    width: 102px;
+}
+
+.kid5{
+    background-color: orangered;
+    position: relative;
+    top: -52px;
+    width: 156px;
+    height: 20px;
+}
+
+
+/* container5 */
+
+.container5{
+    position: relative;
+    top: 10px;
+    background-color: black;
+    height: 160px;
+    width: 321px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px ;
+    grid-template-rows: 50px 50px 50px;
+    border: 2px solid black;
+    grid-gap: 4px;
+    
+}
+
+.child1{
+    background-color: green;
+}
+.child2{
+    background-color: orange;
+}
+
+.child3{
+    background-color: lightgreen;
+}
+
+.child4{
+    background-color: red;
+}
+
+.child5{
+    background-color: aqua ;
+}
+
+.child6{
+    background-color:orange ;
+}
+
+.child7{
+    background-color: orange;
+}
+
+.child8{
+    background-color: green;
+}
+
+.child9{
+    background-color: orange;
+}
+
+.child10{
+    background-color: lightgreen;
+}
+
+.child11{
+    background-color: lightsalmon;
+}
+
+.child12{
+    background-color: red;
+}
+
+.child13{
+    background-color: green;
+}
+
+.child14{
+    background-color: red;
+}
+
+.child15{
+    background-color: aqua;
+}
+
+.child16{
+    background-color: orange;
+}
+
+.child17{
+    background-color: green;
+}
+
+.child18{
+    background-color: aquamarine;
+}
+
+/* container 8 */
+
+.container8{
+    position: relative;
+    top: 10px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    grid-gap: 4px;
+    background-color: black;
+    height: 160px;
+    width: 268px;
+    border: 2px solid black;
+}
+
+.content1{
+    background-color: red;
+    
+}
+
+.content2{
+    background-color: orange;
+}
+
+.content3{
+    background-color: aqua;
+}
+
+.content4{
+    background-color: aquamarine;
+}
+
+.content5{
+    background-color: green;
+}
+
+.content6{
+    background-color: orange;    
+}
+
+.content7{
+    background-color: red;
+}
+
+.content8{
+    background-color: orangered;
+    width: 158px;
+}
+
+.content11{
+    background-color: aqua;
+    width: 266px;
+}
+
+/* container 9  */
+
+.container9{
+    position: relative;
+    top:10px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    grid-gap: 4px ;
+    background-color: black;
+    height: 137px;
+    width: 160px;
+    border: 2px solid black;
+}
+
+.body1{
+    background: orangered;
+    grid-column: 1 / 4;
+    height: 30px;
+}
+
+.body2{
+    background-color: green;
+    position: relative;
+    top: -20px;
+    grid-row: 2 / 4;
+}
+
+.body3{
+    background-color: aqua;
+    position: relative;
+    top: -20px;
+    width: 104px;
+}
+
+.body5{
+    background-color: red;
+    position: relative;
+    top: -20px;
+}
+
+.body6{
+    background-color: orange;
+    position: relative;
+    top: -20px;
+}
